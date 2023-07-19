@@ -36,9 +36,8 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 50px;
 
   @media screen and (max-width: $sm) {
